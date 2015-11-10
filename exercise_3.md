@@ -14,7 +14,6 @@ The purpose of that function is to consume the tokens and to calculate the resul
 For this exercise, you will need the following Ruby tools:
 
 - [`if`](http://www.howtogeek.com/howto/programming/ruby/ruby-if-else-if-command-syntax/)
-- [`.each`](http://learnrubythehardway.org/book/ex32.html)
 
 If you want a function to return a value, you do it like so:
 
