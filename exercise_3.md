@@ -14,6 +14,7 @@ The purpose of that function is to consume the tokens and to calculate the resul
 For this exercise, you will need the following Ruby tools:
 
 - [`if`](http://www.howtogeek.com/howto/programming/ruby/ruby-if-else-if-command-syntax/)
+- [`to_i`](http://ruby-doc.org/core-2.0.0/String.html#method-i-to_i) This converts a string into integer
 
 If you want a function to return a value, you do it like so:
 
