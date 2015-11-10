@@ -9,26 +9,26 @@ Write a function `split_chars` which takes a string as argument and returns an a
 
 def split_chars(program)
   #...
-  end
+end
 
-  # => split_chars("(+ 1 2)")
-  # => ["(", "+", "1", "2", ")"]
+# => split_chars("(+ 1 2)")
+#=> ["(", "+", "1", "2", ")"]
 
-  ```
+```
 
-  you can test if this works by loading the file into irb and call the function:
+you can test if this works by loading the file into irb and call the function:
 
-  ```bash
-  $ ls
-  lexer.rb
-  $ irb
-  2.2.2 :001 > load "lexer.rb"
-   => true
-   2.2.2 :002 > split_chars("(+ 1 2)")
-    => ["(+", "1", "2)"]
-    ```
+```bash
+$ ls
+lexer.rb
+$ irb
+2.2.2 :001 > load "lexer.rb"
+=> true
+2.2.2 :002 > split_chars("(+ 1 2)")
+=> ["(+", "1", "2)"]
+```
 
-    ## Hints
+## Hints
 
-    A String can be splitted up by calling [`split`](http://ruby-doc.org/core-2.2.0/String.html#method-i-split) on it.
+A String can be splitted up by calling [`split`](http://ruby-doc.org/core-2.2.0/String.html#method-i-split) on it.
 
