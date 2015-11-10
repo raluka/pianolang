@@ -11,9 +11,10 @@ end
 
 The purpose of that function is to consume the tokens and to calculate the result of the term provided. This means for the list of tokens `["plus", "2", "3"]` it should return the value `5`.
 
-For this exercise, you will need the following Ruby tools:
+For this exercise, you can use the following Ruby tools:
 
 - [`if`](http://www.howtogeek.com/howto/programming/ruby/ruby-if-else-if-command-syntax/)
+- [`case`](http://www.skorks.com/2009/08/how-a-ruby-case-statement-works-and-what-you-can-do-with-it/)
 - [`to_i`](http://ruby-doc.org/core-2.0.0/String.html#method-i-to_i) This converts a string into integer
 
 If you want a function to return a value, you do it like so:
