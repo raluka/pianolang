@@ -11,7 +11,7 @@ def split_chars(program)
   #...
 end
 
-# => split_chars("(+ 1 2)")
+# => split_chars("( + 1 2 )")
 #=> ["(", "+", "1", "2", ")"]
 
 ```
@@ -24,7 +24,7 @@ lexer.rb
 $ irb
 2.2.2 :001 > load "lexer.rb"
 => true
-2.2.2 :002 > split_chars("(+ 1 2)")
+2.2.2 :002 > split_chars("( + 1 2 )")
 => ["(+", "1", "2)"]
 ```
 
