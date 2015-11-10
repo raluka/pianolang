@@ -9,7 +9,7 @@ def parse(tokens)
 end
 ```
 
-The purpose of that function is to consume the tokens and to calculate the result of the term provided. This means for the list of tokens `["plus", "2", "3]` it should return the value `5`.
+The purpose of that function is to consume the tokens and to calculate the result of the term provided. This means for the list of tokens `["plus", "2", "3"]` it should return the value `5`.
 
 For this exercise, you will need the following Ruby tools:
 
